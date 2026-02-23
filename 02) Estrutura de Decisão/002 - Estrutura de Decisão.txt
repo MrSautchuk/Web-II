@@ -1,19 +1,26 @@
-01) Faça um Programa que peça dois números e imprima o maior deles.
-02) Faça um Programa que peça um valor e mostre na tela se o valor é positivo ou negativo.
-03) Faça um Programa que verifique se uma letra digitada é "F" ou "M". Conforme a letra escrever: F - Feminino, M - Masculino, Sexo Inválido.
-04) Faça um Programa que verifique se uma letra digitada é vogal ou consoante.
+01) Faça um Programa que peça dois números e imprima o maior deles.  OK
 
-05) Faça um programa para a leitura de duas notas parciais de um aluno. O programa deve calcular a média alcançada por aluno e apresentar:
-06) A mensagem "Aprovado", se a média alcançada for maior ou igual a sete;
-07) A mensagem "Reprovado", se a média for menor do que sete;
-08) A mensagem "Aprovado com Distinção", se a média for igual a dez.
+02) Faça um Programa que peça um valor e mostre na tela se o valor é positivo ou negativo.  OK
 
-09) Faça um Programa que leia três números e mostre o maior deles.
-10) Faça um Programa que leia três números e mostre o maior e o menor deles.
-11) Faça um programa que pergunte o preço de três produtos e informe qual produto você deve comprar, sabendo que a decisão é sempre pelo mais barato.
+03) Faça um Programa que verifique se uma letra digitada é "F" ou "M". Conforme a letra escrever: F - Feminino, M - Masculino, Sexo Inválido.  Ok
+
+04) Faça um Programa que verifique se uma letra digitada é vogal ou consoante.  OK
+
+05) Faça um programa para a leitura de duas notas parciais de um aluno. O programa deve calcular a média alcançada por aluno e apresentar: OK
+06) A mensagem "Aprovado", se a média alcançada for maior ou igual a sete; OK
+07) A mensagem "Reprovado", se a média for menor do que sete; OK
+08) A mensagem "Aprovado com Distinção", se a média for igual a dez. OK
+
+09) Faça um Programa que leia três números e mostre o maior deles.  OK
+
+10) Faça um Programa que leia três números e mostre o maior e o menor deles.  OK
+
+11) Faça um programa que pergunte o preço de três produtos e informe qual produto você deve comprar, sabendo que a decisão é sempre pelo mais barato.  OK
+
 12) Faça um Programa que leia três números e mostre-os em ordem decrescente.
 
 13) Faça um Programa que pergunte em que turno você estuda. Peça para digitar M-matutino ou V-Vespertino ou N- Noturno. Imprima a mensagem "Bom Dia!", "Boa 14) Tarde!" ou "Boa Noite!" ou "Valor Inválido!", conforme o caso.
+
 15) As Organizações Tabajara resolveram dar um aumento de salário aos seus colaboradores e lhe contraram para desenvolver o programa que calculará os reajustes.
 
 16) Faça um programa que recebe o salário de um colaborador e o reajuste segundo o seguinte critério, baseado no salário atual:
@@ -40,6 +47,7 @@
         Salário Liquido                 : R$  935,00
 
 18) Faça um Programa que leia um número e exiba o dia correspondente da semana. (1-Domingo, 2- Segunda, etc.), se digitar outro valor deve aparecer valor inválido.
+
 19) Faça um programa que lê as duas notas parciais obtidas por um aluno numa disciplina ao longo de um semestre, e calcule a sua média. A atribuição de conceitos obedece à tabela abaixo:
   -Média de Aproveitamento  Conceito
   -Entre 9.0 e 10.0        A
@@ -49,6 +57,7 @@
   -Entre 4.0 e zero        E
 
 20) O algoritmo deve mostrar na tela as notas, a média, o conceito correspondente e a mensagem “APROVADO” se o conceito for A, B ou C ou “REPROVADO” se o conceito for D ou E.
+
 21) Faça um Programa que peça os 3 lados de um triângulo. O programa deverá informar se os valores podem ser um triângulo. Indique, caso os lados formem um triângulo, se o mesmo é: equilátero, isósceles ou escaleno.
 	Dicas:
 	-Três lados formam um triângulo quando a soma de quaisquer dois lados for maior que o terceiro;
@@ -57,13 +66,16 @@
 	-Triângulo Escaleno: três lados diferentes;
 
 20) Faça um programa que calcule as raízes de uma equação do segundo grau, na forma ax2 + bx + c. O programa deverá pedir os valores de a, b e c e fazer as consistências, informando ao usuário nas seguintes situações:
+
 21) Se o usuário informar o valor de A igual a zero, a equação não é do segundo grau e o programa não deve fazer pedir os demais valores, sendo encerrado;
 	-Se o delta calculado for negativo, a equação não possui raizes reais. Informe ao usuário e encerre o programa;
 	-Se o delta calculado for igual a zero a equação possui apenas uma raiz real; informe-a ao usuário;
 	-Se o delta for positivo, a equação possui duas raiz reais; informe-as ao usuário;
 
 22) Faça um Programa que peça um número correspondente a um determinado ano e em seguida informe se este ano é ou não bissexto.
+
 23) Faça um Programa que peça uma data no formato dd/mm/aaaa e determine se a mesma é uma data válida.
+
 24) Faça um Programa que leia um número inteiro menor que 1000 e imprima a quantidade de centenas, dezenas e unidades do mesmo.
 	Observando os termos no plural a colocação do "e", da vírgula entre outros. Exemplo:
 	326 = 3 centenas, 2 dezenas e 6 unidades
@@ -79,7 +91,9 @@
 	Exemplo 2: Para sacar a quantia de 399 reais, o programa fornece três notas de 100, uma nota de 50, quatro notas de 10, uma nota de 5 e quatro notas de 1.
 
 27) Faça um Programa que peça um número inteiro e determine se ele é par ou impar. Dica: utilize o operador módulo (resto da divisão).
+
 28) Faça um Programa que peça um número e informe se o número é inteiro ou decimal. Dica: utilize uma função de arredondamento.
+
 29) Faça um Programa que leia 2 números e em seguida pergunte ao usuário qual operação ele deseja realizar. O resultado da operação deve ser acompanhado de uma frase que diga se o número é:
 	-par ou ímpar;
 	-positivo ou negativo;

@@ -15,8 +15,10 @@
 #=====================================  Não está pronto  ============================================#
 
 #====================================================================================================#
+import math
 
-MT = float(input("Quantos metros quadrados pretende pintar? "))
+
+MT = float(input("|        Quantos metros quadrados pretende pintar?        |"))
 necessario = (MT / 6) *1.10
 necessarioLata = necessario / 18
 necessarioGalao = necessario / 3.6
@@ -26,23 +28,27 @@ valorGalao = 25.00
 print("===========================================================")
 
 print("Você vai pintar ", MT, " Metros quadrados")
-print("e vai precisar de ", necessario, " Litros de tinta")
+print("Contando com 10% de margem para não faltar")
+print(f"Você vai precisar de {necessario:.2f} Litros de tinta")
 
 print("===========================================================")
 
-print("Caso opite pela lata de 18 lts de tinta:")
-print("Serão necessárias ", necessarioLata, " latas de tinta")
-print("Você terá um custo total de R$", valorLata * necessarioLata)
+# print("Caso opite pela lata de 18 lts de tinta:")
+# print("Serão necessárias ", math.ceil(necessarioLata), " latas de tinta")
+# print("Você terá um custo total de R$", valorLata * math.ceil(necessarioLata))
+# print(f"Terá um desperdício de {(math.ceil(necessarioLata)*18) - necessario:.2f} litros")
 
-print("===========================================================")
+# print("===========================================================")
 
-print("Caso opite pelo Galão de 3,6 lts de tinta:")
-print("Serão necessárias ", necessarioGalao, " latas de tinta")
-print("Você terá um custo total de R$", valorLata * necessarioGalao)
+# print("Caso opite pelo Galão de 3,6 lts de tinta:")
+# print("Serão necessárias ", math.ceil(necessarioGalao), " galões de tinta")
+# print("Você terá um custo total de R$", valorGalao * math.ceil(necessarioGalao))
+# print(f"Terá um desperdício de {(math.ceil(necessarioGalao)*3.6) - necessario:.2f} litros")
 
-print("===========================================================")
+# print("===========================================================")
 
-print("Caso opite comprar latas e galões:")
-print("Serão necessárias ", necessarioLata // MT, " latas de tinta")
-print("Serão necessárias ", necessarioLata % MT, " latas de tinta")
-print("Você terá um custo total de R$", (((necessarioLata // MT) * valorLata) + ((necessarioLata % MT) * valorGalao)))
+print("Caso opite entre latas e galões visando evitar o desperdicio:")
+print("Serão necessárias ", math.floor(necessarioLata), " latas de tinta")
+print(f"Faltando  {necessario % 18:.2f} litros a serem completados com galões")
+print("Serão necessários ", math.ceil(necessario % 18 / 3.6), " galões de tinta")
+print("Você terá um custo total de R$", (math.floor(necessarioLata) * 80.00) + (math.floor(necessarioLata) * 25.00))
