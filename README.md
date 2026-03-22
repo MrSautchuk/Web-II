@@ -14,12 +14,12 @@ Atualmente, o repositório foca nos fundamentos em:
 
 Os arquivos estão organizados para facilitar a consulta rápida. 
 
-* `/Aulas_python` - Diretório principal.
-* `/01) Estrutura Sequencial (IO)` - Codigos do primeiro arquivo de exercícios.
-* `/02) Estrutura de Decisão` - Codigos do segundo arquivo de exercícios.
-* `/03) Estrutura de Repetição` - Codigos do terceiro arquivo de exercícios.
-* `Atividades em Sala` - Codigos de exercícios escreitos durante a aula.
-* `Slides` - Slides das aulas. 
+* `Aulas_python/` - Diretório principal.
+* `./01) Estrutura Sequencial (IO)` - Codigos do primeiro arquivo de exercícios.
+* `./02) Estrutura de Decisão` - Codigos do segundo arquivo de exercícios.
+* `./03) Estrutura de Repetição` - Codigos do terceiro arquivo de exercícios.
+* `./Atividades em Sala` - Codigos de exercícios escreitos durante a aula.
+* `./Slides` - Slides das aulas. 
 * *[Novas pastas serão criadas para cada linguagem introduzida]*
 
 ## 🏃 Como executar os scripts em Python
