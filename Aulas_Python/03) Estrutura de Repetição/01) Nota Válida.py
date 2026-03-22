@@ -10,3 +10,9 @@ while nota < 0 or nota > 10:
 
 print("Nota válida")
 print(f"Nota digitada {nota}")
+
+# num = float(input("Entre com um numero entre 0 e 10 \n"))
+
+# while num > 10 and num < 0:
+#     num = float(input("Entre novamente com um numero entre 0 e 10 \n"))
+#     print("rodou")

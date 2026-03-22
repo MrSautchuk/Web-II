@@ -13,7 +13,7 @@
 
 print("Lojas Quase Dois  - tabela de preços")
 
-for i in range(50):
+for i in range(51):
   if i == 0:
     print(" ")
   else:
